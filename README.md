@@ -28,7 +28,7 @@ After installation just set up laradock:
 
 Done! Local laradock environment is started, check http://localhost.
 
-# optional
+## optional
 
 For fast connect to workspace container use:
 ```bash
