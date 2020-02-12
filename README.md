@@ -1,23 +1,24 @@
 # Laraloc
 
-Laraloc is bash scripts for fast set up local laradock environment for your project.
+Laraloc are bash scripts for fast set up local laradock environment for your project.
 
 ## Usage
 
-First clone this repository into your laravel application folder: 
+First clone this repository in same level of your laravel application folder: 
 ```
-git clone git@github.com:artx19/laraloc.git local
+git clone git@github.com:artx19/laraloc.git
+cd laraloc
 ```
 
 Now ready to laravel installation:
 ```bash
-`./local/install.sh`
+`./install.sh`
 ```
 
 After installation just set up laradock:
 
 ```bash
-./local/up.sh
+./up.sh
 ```
 
 Done! Local laradock environment is started, check http://localhost.
@@ -26,11 +27,11 @@ Done! Local laradock environment is started, check http://localhost.
 
 For fast connect to workspace container use:
 ```bash
-./local/ws.sh
+./ws.sh
 ```
 
 For reset your database and apply migrations with seeding use:
 ```bash
-./local/fresh.sh
+./fresh.sh
 ```
 > WARNING! fresh.sh will remove all data in your local database
