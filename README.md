@@ -1,14 +1,16 @@
 # Laraloc
 
-Laraloc are bash scripts for fast set up local laradock environment for your project.
+Laraloc are bash scripts for fast setting up local laradock environment of your project.
 
 ## Usage
 
-First clone this repository in same level of your laravel application folder: 
+First, clone this repository in same level of your laravel application folder: 
 ```
 git clone git@github.com:artx19/laraloc.git
 cd laraloc
 ```
+
+> WARNING! Your application folder must be named `app`
 
 Now ready to laravel installation:
 ```bash
